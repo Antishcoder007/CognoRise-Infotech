@@ -9,14 +9,14 @@ def password_generator(): # we are creating a password_generator() function
         punctuation = '!@#$%^&*()-_=+[]{}|;:,.<>?/~`' # special characters
         characters = lower_letters + upper_letters + digits + punctuation  # we are combining all the charecters and store in the character variable
         
-        length = int(input("Enter the desired length for the password greter then 5: "))
+        length = int(input("Enter the desired length for the password greter then 5: ")) # it will take user input the length of generated password
         
         if length > 5:
-            password = ''.join(random.choice(characters) for _ in range(length))
-            print("generated password is: ",password)
+            password = ''.join(random.choice(characters) for _ in range(length)) # this will randomely chose characters from the characters
+            print("generated password is: ",password)# it will display generated passward
         else:
             print("Length should be a positive integer and grater then 5.")
     except:
         print("invalid")
         
-password_generator()
+password_generator() # it will call the passward generator() function
