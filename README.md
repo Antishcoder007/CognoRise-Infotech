@@ -2,7 +2,7 @@
 
 # Python Projects Collection
 
-This repository contains a collection of simple Python internship Projects. The projects included a Calculator App, a Password Generator, and a Rock, Paper, Scissors Game. Each project is designed to demonstrate fundamental Python programming skills.
+This repository contains a collection of simple Python internship Projects. The projects included a Calculator App, a Password Generator,a Rock, Paper, Scissors Game, and a QR Code Encoder/Decoder. Each project is designed to demonstrate fundamental Python programming skills.
 
 ## Projects
 
