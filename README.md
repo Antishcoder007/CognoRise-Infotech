@@ -53,4 +53,20 @@ A simple implementation of the classic Rock, Paper, Scissors game.
 3. View the computer's choice and the game result.
 4. Optionally, play another round.
 
+### 4. QR Code Encoder/Decoder
+
+A project to generate and decode QR codes.
+
+#### Features:
+- Generate QR codes for information like URLs or texts.
+- Decode QR codes to retrieve the embedded data.
+- Utilize libraries like `qrcode` and `opencv-python` for image processing and data encoding.
+
+#### Usage:
+1. Run the QR code encoder/decoder script.
+2. Enter the information you want to encode into a QR code.
+3. View the generated QR code.
+4. To decode, provide the QR code image to the decoder script and retrieve the embedded data.
+
+
 ## The End
